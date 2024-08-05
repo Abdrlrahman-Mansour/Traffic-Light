@@ -37,21 +37,20 @@ Traffic lights are essential for managing traffic flow and ensuring safety at in
 - **Resistors:** To limit the current for LEDs.
 - **Breadboard and Jumper Wires:** For connecting components.
 - **Power Supply:** 5V regulated power supply for the circuit.
-- **Push Buttons:** Optional for pedestrian crossing simulation.
+
 
 ## Software Requirements
 
 - **MPLAB X IDE:** Integrated Development Environment for Microchip microcontrollers.
 - **XC8 Compiler:** Compiler for PIC microcontrollers.
-- **Serial Communication Software (optional):** For debugging and monitoring (e.g., PuTTY).
+- **Proteus 8.9 Professional** : To simulate the circuit. 
+
 
 ## System Design
 
 The system consists of a microcontroller controlling three sets of LEDs, each representing a traffic signal light. The timing for each light is controlled using timers within the microcontroller. The design also includes provisions for pedestrian crossings and emergency modes, which can be triggered using additional input mechanisms like push buttons.
 
-### Block Diagram
 
-![Block Diagram](path/to/block-diagram.png)
 
 ## Getting Started
 
